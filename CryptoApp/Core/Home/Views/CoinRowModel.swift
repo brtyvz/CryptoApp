@@ -45,7 +45,7 @@ extension CoinRowModel {
                 .frame(minWidth:30)
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
-            Circle()
+            CoinImageView(coin: coin)
                 .frame(width: 20, height: 20, alignment: .center)
             Text(coin.symbol.uppercased())
                 .font(.headline)

@@ -19,9 +19,8 @@ struct HomeView: View {
             // content layer
             VStack {
          homeHeader
-                
+                SearchBarView(searchText:$vm.searchText )
                columnTitles
-                
                 if !showPortfolio {
                     allCoinList
                         .transition(.move(edge: .leading))
@@ -30,7 +29,6 @@ struct HomeView: View {
                     portfolioCoinList
                         .transition(.move(edge: .trailing))
                 }
-               
                 Spacer(minLength: 0)
             }
         }
@@ -41,6 +39,7 @@ struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             HomeView()
+                .preferredColorScheme(.light )
                 .navigationBarHidden(true)
         }
         .environmentObject(dev.homeVm)
