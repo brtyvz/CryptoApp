@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0AB8AA292E49CF001B8E14 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B0AB8A8292E49CF001B8E14 /* PortfolioContainer.xcdatamodeld */; };
+		5B0AB8AC292E4B1D001B8E14 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0AB8AB292E4B1D001B8E14 /* PortfolioDataService.swift */; };
 		5B0CFE4C28D1FD8800E8060C /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CFE4B28D1FD8800E8060C /* Double.swift */; };
 		5B3AC41A291EA5400027FEC8 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AC419291EA5400027FEC8 /* MarketDataModel.swift */; };
 		5B3AC41C291EF85D0027FEC8 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3AC41B291EF85D0027FEC8 /* MarketDataService.swift */; };
@@ -60,6 +62,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B0AB8A9292E49CF001B8E14 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
+		5B0AB8AB292E4B1D001B8E14 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		5B0CFE4B28D1FD8800E8060C /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		5B3AC419291EA5400027FEC8 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		5B3AC41B291EF85D0027FEC8 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
@@ -286,6 +290,7 @@
 				5B40057728D72134004CAB28 /* fakeService.swift */,
 				5B40058028D73D2D004CAB28 /* CoinImageService.swift */,
 				5B3AC41B291EF85D0027FEC8 /* MarketDataService.swift */,
+				5B0AB8AB292E4B1D001B8E14 /* PortfolioDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 				5B8A544F28CF50DE0059B6EB /* CoinModel.swift */,
 				5B74131128DD05E300067371 /* StatisticModel.swift */,
 				5B3AC419291EA5400027FEC8 /* MarketDataModel.swift */,
+				5B0AB8A8292E49CF001B8E14 /* PortfolioContainer.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -449,6 +455,7 @@
 				5B5C2FDE28CA253100CB214D /* Color.swift in Sources */,
 				5B5C300128CA85C600CB214D /* CircleButtonView.swift in Sources */,
 				5B3AC41A291EA5400027FEC8 /* MarketDataModel.swift in Sources */,
+				5B0AB8AC292E4B1D001B8E14 /* PortfolioDataService.swift in Sources */,
 				5B7D9C4C28C8CDAD007068D7 /* CryptoApp.swift in Sources */,
 				5B40058128D73D2D004CAB28 /* CoinImageService.swift in Sources */,
 				5B74131528DD96A200067371 /* StatisticView.swift in Sources */,
@@ -461,6 +468,7 @@
 				5B40058328D7529B004CAB28 /* LocalFileManager.swift in Sources */,
 				5B6F3A7628D9DBD20037E9CA /* SearchBarView.swift in Sources */,
 				5B40057828D72134004CAB28 /* fakeService.swift in Sources */,
+				5B0AB8AA292E49CF001B8E14 /* PortfolioContainer.xcdatamodeld in Sources */,
 				5B40057F28D73829004CAB28 /* CoinImageViewModel.swift in Sources */,
 				5B40057D28D7381A004CAB28 /* CoinImageView.swift in Sources */,
 				5B7CAED828CF856800CA0BD2 /* PreviewProvider.swift in Sources */,
@@ -793,6 +801,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B0AB8A8292E49CF001B8E14 /* PortfolioContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B0AB8A9292E49CF001B8E14 /* PortfolioContainer.xcdatamodel */,
+			);
+			currentVersion = 5B0AB8A9292E49CF001B8E14 /* PortfolioContainer.xcdatamodel */;
+			path = PortfolioContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5B7D9C4028C8CDAD007068D7 /* Project object */;
 }
