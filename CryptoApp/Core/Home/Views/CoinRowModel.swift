@@ -22,6 +22,7 @@ struct CoinRowModel: View {
             rightColumn
         }
         .font(.subheadline)
+        .background(Color.theme.background.opacity(0.001))
     }
 }
 
@@ -73,7 +74,7 @@ extension CoinRowModel {
                     Color.theme.green :
                         Color.theme.red
                 )
-        }.frame(width:UIScreen.main.bounds.width/3)
+        }.frame(width:UIScreen.main.bounds.width/3.5)
     }
     
 }
